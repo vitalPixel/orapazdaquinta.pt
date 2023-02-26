@@ -1,0 +1,17 @@
+{
+    "name": "vitalpixel/orapazdaquinta",
+    "description": "wordpress site for a local organic farm and grocery shop",
+    "authors": [
+        {
+            "name": "vitalPixel"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^6.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
+}
