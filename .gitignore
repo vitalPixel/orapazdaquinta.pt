@@ -1,3 +1,6 @@
+# Exclude macOS-specific attributes files
+.DS_Store
+
 # Exclude composer dependencies in the vendor directory
 /vendor
 
@@ -15,6 +18,7 @@
 /wordpress/wp-content/themes/*
 # Include custom themes here
 !/wordpress/wp-content/themes/twentytwentytwo
+!/wordpress/wp-content/themes/twentytwentytwo-child
 
 ## Plugins: include the directory, exclude all subdirectories except those specified
 !/wordpress/wp-content/plugins/

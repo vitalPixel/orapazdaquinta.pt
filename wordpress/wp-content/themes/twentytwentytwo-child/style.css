@@ -1,0 +1,29 @@
+/*
+Theme Name:   O Rapaz da Quinta
+Description:  Custom theme for O Rapaz da Quinta based on Twenty Twenty Two
+Author:       vitalPixel
+Author URI:   http://vitalpixel.org
+Template:     twentytwentytwo
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+iframe {
+    max-width: 100%;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#newsletterForm {
+    margin-top: 0;
+}
+
+.button {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
