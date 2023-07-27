@@ -9,11 +9,11 @@
 # Include wp-content, then exclude each of the subdirectories
 !/wordpress/wp-content
 /wordpress/wp-content/*
-!/wordpress/wp-content/themes/twentytwentytwo-child/*
 
 ## Themes: include the directory, exclude all subdirectories except those specified
 !/wordpress/wp-content/themes/
 /wordpress/wp-content/themes/*
+!/wordpress/wp-content/themes/twentytwentytwo-child/*
 # Include custom themes here
 !/wordpress/wp-content/themes/twentytwentytwo
 !/wordpress/wp-content/themes/twentytwentytwo-child
