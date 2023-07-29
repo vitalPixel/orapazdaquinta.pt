@@ -27,3 +27,7 @@ iframe {
     padding: 8px 12px;
     border-radius: 8px;
 }
+
+.h--noSpace {
+    font-size: 0;
+}
